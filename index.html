@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InfoMargem - IEMA Imperatriz</title>
+  <link rel="stylesheet" href="estilo.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="container header-flex">
+      <div class="logo">
+        <img src="logoiema.png" alt="Logo IEMA" />
+      </div>
+      <div class="titulo">
+        <h1>InfoMargem </h1>
+        <p>Informação e Sustentabilidade</p>
+      </div>
+    </div>
+
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#informacoes">Informações Técnicas</a></li>
+        <li><a href="#comunidades">Relatos das Comunidades</a></li>
+        <li><a href="#alertas">Alertas Ambientais</a></li>
+        <li><a href="#orientacoes">Orientações Práticas</a></li>
+        <li><a href="#participacao">Participação Cidadã</a></li>
+        <li><a href="#ods">Conexão com os ODS</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="banner">
+    <div class="banner-texto">
+    </div>
+  </section>
+
+  <main class="container cards-grid">
+    <section class="card">
+      <h2>📚 Informações Técnicas e Científicas</h2>
+      <ul>
+        <li><strong>Riscos ambientais:</strong> avaliação dos danos ao ecossistema.</li>
+        <li><strong>Impactos socioambientais:</strong> efeitos nas comunidades e na biodiversidade.</li>
+        <li><strong>Medidas preventivas:</strong> ações para evitar acidentes e minimizar prejuízos.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>🗣️ Relatos das Comunidades Locais</h2>
+      <ul>
+        <li><strong>Histórias e vivências:</strong> depoimentos da população.</li>
+        <li><strong>Envolvimento direto:</strong> participação ativa nas decisões.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>🚨 Alertas sobre Eventos Críticos</h2>
+      <ul>
+        <li><strong>Notificações de risco:</strong> aviso sobre possíveis ameaças ambientais.</li>
+        <li><strong>Comunicação rápida:</strong> resposta imediata a incidentes.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>🛠️ Orientações Práticas</h2>
+      <ul>
+        <li><strong>Ações em acidentes:</strong> procedimentos de emergência.</li>
+        <li><strong>Protocolos de segurança:</strong> instruções de prevenção e atuação.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>🌎 Conexão com os ODS</h2>
+      <ul>
+        <li><strong>ODS 14 – Vida na Água:</strong> proteger ecossistemas marinhos e costeiros frente à exploração de
+          petróleo.</li>
+        <li><strong>ODS 16 – Paz, Justiça e Instituições Eficazes:</strong> garantir transparência, acesso à informação
+          e participação cidadã.</li>
+        <li><strong>Educação e sensibilização:</strong> promover consciência ambiental nas comunidades afetadas.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>📰 Notícias sobre Licitação Ambiental</h2>
+      <ul>
+        <li><strong>Debates recentes:</strong> especialistas, ambientalistas e comunidades discutem impactos e
+          exigências legais.</li>
+        <li><strong>Andamento do processo:</strong> atualizações sobre autorizações, consultas públicas e estudos de
+          impacto ambiental (EIA-RIMA).</li>
+        <li><strong>Transparência:</strong> monitoramento da atuação de órgãos públicos e empresas interessadas.</li>
+      </ul>
+    </section>
+  </main>
+
+  <section id="analise-card" class="card-analise">
+    <div class="card-container">
+      <div class="card-video">
+       <!--
+        <video autoplay muted loop playsinline>
+          <source src="https://www.youtube.com/embed/bJItV00Qep8" type="video/mp4">
+          Seu navegador não suporta vídeo HTML5.
+        </video>
+      -->
+        <iframe width="100%" height="100%" autoplay=1 src="https://www.youtube.com/embed/bJItV00Qep8?autoplay=1&mute=1" frameborder="0"></iframe>
+      </div>
+      <div class="card-content">
+        <h2>🌊 Análise dos Efeitos da Exploração de Petróleo</h2>
+        <p>
+          A exploração petrolífera pode gerar impactos graves aos ecossistemas marinhos e costeiros — como vazamentos,
+          degradação de habitats e ameaça à biodiversidade. É essencial promover a prevenção e ampliar a
+          conscientização.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="alerta-envio" class="card">
+    <h2>📢 Enviar Alerta de Acidente Ambiental</h2>
+    <form action="#" method="post" class="form-alerta">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+      <label for="local">Local do Acidente:</label>
+      <input type="text" id="local" name="local" placeholder="Ex: Rio Amazonas, Amapá" required>
+
+      <label for="descricao">Descrição do Acidente:</label>
+      <textarea id="descricao" name="descricao" placeholder="Descreva o ocorrido..." rows="4" required></textarea>
+
+      <button type="submit" disabled>Enviar Alerta (Simulação)</button>
+      <p class="alerta-info">* Este formulário é ilustrativo. Nenhum dado será enviado.</p>
+    </form>
+  </section>
+
+
+  <footer>
+    <p>&copy; 2025 InfoMargem - IEMA Imperatriz. Todos os direitos reservados.</p>
+  </footer>
+</body>
+
+</html>
