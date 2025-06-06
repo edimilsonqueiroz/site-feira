@@ -436,3 +436,21 @@ footer {
 .banner-texto p {
   font-size: 1.2em;
 }
+
+@media screen and (max-width: 768px) {
+  .header-flex{
+    flex-direction: column;
+  }
+
+  .nav-bar ul{
+    flex-direction: column;
+    position: relative;
+    padding: 0;
+  }
+  
+  .nav-bar ul li{
+    border-bottom: 2px solid #555555;
+    margin: 0;
+    padding: 10px;
+  }
+}  
